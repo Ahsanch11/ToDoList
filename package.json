@@ -1,0 +1,19 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "Todolist",
+  "main": "todo-correct.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahsanch11/ToDoList.git"
+  },
+  "author": "Ahsan zia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ahsanch11/ToDoList/issues"
+  },
+  "homepage": "https://github.com/Ahsanch11/ToDoList#readme"
+}
