@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Ahsanch11/ToDoList/issues"
   },
-  "homepage": "https://github.com/Ahsanch11/ToDoList#readme"
+  "homepage": "https://github.com/Ahsanch11/ToDoList#readme",
+  "dependencies": {
+    "webpack": "^3.10.0"
+  }
 }

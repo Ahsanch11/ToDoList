@@ -1,11 +1,11 @@
-
+import {addListItem} from './todo-correct_2.js';
 
 $(document).ready(function(){
 
     
-    var addListItem = require('./todo-correct_2.js');
+  //var addListItem = require('./todo-correct_2.js');
   
-    console.log('..loading')
+  console.log('..loading')
 
   var listItems =[];
 
@@ -26,5 +26,4 @@ $(document).ready(function(){
 
 
 });
-
 

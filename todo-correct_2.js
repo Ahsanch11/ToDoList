@@ -1,37 +1,38 @@
-function addListItem(item,listItems) {
+export  function addListItem(item,listItems) {
   listItems.push(item)
   renderArray(listItems);
 }
 
 function removeListItem(index,listItems) {
   listItems.splice(index, 1)
-  renderArray();
+  renderArray(listItems);
 }
 
 function shiftUpItem(index,listItems) {
   if(!index) {
     return null;
+
   } else {
     var temp = listItems.splice(index, 1)
     listItems.splice(index-1, 0, temp[0])
-    renderArray();
+    renderArray(listItems);
   }
-}
+}  
 
-function shiftDownItem(index,listItems) {
+function shiftDownItem(index,listItems) { 
   if(index >= listItems.length -1) {
     return null;
   } else {
     var temp = listItems.splice(index, 1)
     listItems.splice(index+1, 0, temp[0])
-    renderArray();
+    renderArray(listItems);
   }
 }
 
 function completeItem(index,listItems) {
   listItems[index].completed = !listItems[index].completed;
   console.log(listItems[index].completed)
-  renderArray();
+  renderArray(listItems);
 }
 
 function renderArray(listItems) {
@@ -69,7 +70,9 @@ function renderArray(listItems) {
         $(`#btn_complete_${index}`).on('click', function(e){
           completeItem(index,listItems);
         })
-    })
+    });
 }
 
-module.exports = addListItem;
+//module.exports = addListItem;
+
+//export default addListItem;
