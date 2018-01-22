@@ -17,6 +17,17 @@
   },
   "homepage": "https://github.com/Ahsanch11/ToDoList#readme",
   "dependencies": {
+    "babel-preset-stage-3": "^6.24.1",
+    "bootstrap": "^4.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9",
     "webpack": "^3.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1"
   }
 }
